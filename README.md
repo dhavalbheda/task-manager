@@ -1,4 +1,4 @@
-# `Task Manager App Complete API`
+# `Task Manager App Rest API`
 ![](https://img.shields.io/badge/Node.js-v12.17.0-green)
 ![](https://img.shields.io/badge/express-v4.17.1-blue)
 ![](https://img.shields.io/badge/Mongoose-v5.9.22-lightgreen)
