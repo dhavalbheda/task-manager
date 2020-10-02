@@ -5,7 +5,7 @@ const auth = require('../middleware/auth')
 const router = new express.Router()
 
 
-router.post('/task', auth, async(req,res) => {
+router.post('/tasks', auth, async(req,res) => {
     const task = new Task({
         ...req.body,
         author:req.user._id})

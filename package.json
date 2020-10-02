@@ -5,24 +5,29 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "env-cmd ./config/dev.env nodemon src/index.js"
+    "dev": "env-cmd ./config/dev.env nodemon src/index.js",
+    "test": "env-cmd ./config/test.env jest --watch --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "keywords": [],
   "author": "Only D",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^7.2.1",
     "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.22",
     "multer": "^1.4.2",
-    "nodemon": "^2.0.4",
     "sharp": "^0.25.4",
     "validator": "^13.1.1"
   },
   "devDependencies": {
-    "env-cmd": "^8.0.2"
+    "env-cmd": "^8.0.2",
+    "jest": "^23.6.0",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
   }
 }

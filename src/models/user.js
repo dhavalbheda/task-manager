@@ -81,11 +81,12 @@ userSchema.methods.toJSON =  function(){
 //For Login
 userSchema.statics.findByCredentials = async (email,password) => {
     const user = await User.findOne({email})
-    
+    console.log(password)
     if(!user)
         throw new Error('Unable To Login')
 
     const isMatch = await bycypt.compare(password, user.password)
+    console.log(user.password)
     if(!isMatch)
         throw new Error('Incorrect Password')
     return user
