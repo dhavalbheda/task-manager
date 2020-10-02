@@ -7,8 +7,8 @@
 
 [**Host At**](https://dhaval-task-manager.herokuapp.com/) - [**https://dhaval-task-manager.herokuapp.com/**](https://dhaval-task-manager.herokuapp.com/)
 
-Task Manager App Provides All Complete Readymate Rest API for any Task Manger Application Or You Can Say Backend Part.
-User Need To Create Only Fronted Park. With This User Can Create Any Complete Task Manger App Or Any Todo List App. 
+Task Manager App Provides All Complete Readymade Rest API for any Task Manager Application, Or You Can Say Backend Part.
+User Need To Create Only Frontend Part. With This, User Can Create Any Complete Task Manger App Or Any Todo List App. 
 
 
 ## How To Run
